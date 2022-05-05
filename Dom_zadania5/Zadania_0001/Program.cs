@@ -36,19 +36,6 @@ string ConvertArray(int[] array)
     return result;
 }
 
-// // - опридиления четных чисел в массиве
-// int[] ArrayChet(int[] array)
-// {
-//     // int res = 0;
-//     int len = array.Length;
-//     int[] result = new int[len];
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         if (array[i] % 2 == 0) result[i]++;
-//     }
-//     return result;
-// }
-
 
 // - Основной код
 
@@ -63,11 +50,3 @@ for (int i = 0; i < inArr.Length; i++)
     if (inArr[i] % 2 == 0) res++;
 }
 Console.WriteLine("Чётных чисел в массиве: "+res);
-
-
-
-
-
-
-
-
